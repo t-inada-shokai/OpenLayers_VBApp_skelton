@@ -1,0 +1,2 @@
+# OpenLayers_VBApp_skelton
+OpenLayersを使ったVB.NETによるGISアプリの雛形です。
