@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <meta charset='UTF-8' />
+    <title>地図表示</title>
+    <meta name="description" content="地図表示のサンプル" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.1.0/ol.css" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/ol@v7.1.0/dist/ol.js"></script>
+    <link rel="stylesheet" href="style_css.css" type="text/css" />
+    <script src="constantsBox.js"></script>
+    <script src="constantsBaseLayer.js"></script>
+</head>
+<body>
+    <div id='map'>
+        <div id='info'></div>
+    </div>
+    <script src="createmap_js.js"></script>
+    <script src="drawitems_js.js"></script>
+    <script src="detectclick_js.js"></script>
+    <script src="zoommap_js.js"></script>
+    <script src="dragbox_js.js"></script>
+    <script>
+        loadMap();
+        setMarkerStyle();
+        setLayer();
+        setJSONLayer();
+        setDragMoveFeatureInteraction();
+        entryMapEvent();
+        entryZoomEvent();
+        zoomMap();
+    </script>
+</body>
+</html>

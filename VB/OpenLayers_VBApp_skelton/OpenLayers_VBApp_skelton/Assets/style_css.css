@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#info {
+    position: absolute;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    z-index: 100;
+    background-color: rgba(240, 240, 240, 0.8);
+    padding: 10px;
+    /* transform: translateX(3%); */
+    visibility: hidden;
+    pointer-events: none;
+}

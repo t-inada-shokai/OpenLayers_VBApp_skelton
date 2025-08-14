@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_MyAppDataSet" targetNamespace="http://tempuri.org/DS_MyAppDataSet.xsd" xmlns:mstns="http://tempuri.org/DS_MyAppDataSet.xsd" xmlns="http://tempuri.org/DS_MyAppDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_MyAppDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS_MyAppDataSet" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_MyAppDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="T_REFERENCEPOINT" msprop:Generator_RowEvHandlerName="T_REFERENCEPOINTRowChangeEventHandler" msprop:Generator_RowDeletedName="T_REFERENCEPOINTRowDeleted" msprop:Generator_RowDeletingName="T_REFERENCEPOINTRowDeleting" msprop:Generator_RowEvArgName="T_REFERENCEPOINTRowChangeEvent" msprop:Generator_TablePropName="T_REFERENCEPOINT" msprop:Generator_RowChangedName="T_REFERENCEPOINTRowChanged" msprop:Generator_UserTableName="T_REFERENCEPOINT" msprop:Generator_RowChangingName="T_REFERENCEPOINTRowChanging" msprop:Generator_RowClassName="T_REFERENCEPOINTRow" msprop:Generator_TableClassName="T_REFERENCEPOINTDataTable" msprop:Generator_TableVarName="tableT_REFERENCEPOINT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="uid" msprop:Generator_ColumnPropNameInTable="uidColumn" msprop:Generator_ColumnPropNameInRow="uid" msprop:Generator_UserColumnName="uid" msprop:Generator_ColumnVarNameInTable="columnuid" type="xs:string" minOccurs="0" />
+              <xs:element name="pointLabel" msprop:Generator_ColumnPropNameInTable="POINTLABELColumn" msprop:Generator_ColumnPropNameInRow="POINTLABEL" msprop:Generator_UserColumnName="pointLabel" msprop:Generator_ColumnVarNameInTable="columnPOINTLABEL" type="xs:string" minOccurs="0" />
+              <xs:element name="longitude" msprop:Generator_ColumnPropNameInTable="LONGITUDEColumn" msprop:Generator_ColumnPropNameInRow="LONGITUDE" msprop:Generator_UserColumnName="longitude" msprop:Generator_ColumnVarNameInTable="columnLONGITUDE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="latitude" msprop:Generator_ColumnPropNameInTable="LATITUDEColumn" msprop:Generator_ColumnPropNameInRow="LATITUDE" msprop:Generator_UserColumnName="latitude" msprop:Generator_ColumnVarNameInTable="columnLATITUDE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="comment" msprop:Generator_ColumnPropNameInTable="commentColumn" msprop:Generator_ColumnPropNameInRow="comment" msprop:Generator_UserColumnName="comment" msprop:Generator_ColumnVarNameInTable="columncomment" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BACKENDDB_T_REFERENCEPOINT" msprop:Generator_RowEvHandlerName="BACKENDDB_T_REFERENCEPOINTRowChangeEventHandler" msprop:Generator_RowDeletedName="BACKENDDB_T_REFERENCEPOINTRowDeleted" msprop:Generator_RowDeletingName="BACKENDDB_T_REFERENCEPOINTRowDeleting" msprop:Generator_RowEvArgName="BACKENDDB_T_REFERENCEPOINTRowChangeEvent" msprop:Generator_TablePropName="BACKENDDB_T_REFERENCEPOINT" msprop:Generator_RowChangedName="BACKENDDB_T_REFERENCEPOINTRowChanged" msprop:Generator_UserTableName="BACKENDDB_T_REFERENCEPOINT" msprop:Generator_RowChangingName="BACKENDDB_T_REFERENCEPOINTRowChanging" msprop:Generator_RowClassName="BACKENDDB_T_REFERENCEPOINTRow" msprop:Generator_TableClassName="BACKENDDB_T_REFERENCEPOINTDataTable" msprop:Generator_TableVarName="tableBACKENDDB_T_REFERENCEPOINT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="uid" msprop:Generator_ColumnPropNameInTable="uidColumn" msprop:Generator_ColumnPropNameInRow="uid" msprop:Generator_UserColumnName="uid" msprop:Generator_ColumnVarNameInTable="columnuid" type="xs:string" />
+              <xs:element name="pointLabel" msprop:Generator_ColumnPropNameInTable="pointLabelColumn" msprop:Generator_ColumnPropNameInRow="pointLabel" msprop:Generator_UserColumnName="pointLabel" msprop:Generator_ColumnVarNameInTable="columnpointLabel" type="xs:string" minOccurs="0" />
+              <xs:element name="longitude" msprop:Generator_ColumnPropNameInTable="longitudeColumn" msprop:Generator_ColumnPropNameInRow="longitude" msprop:Generator_UserColumnName="longitude" msprop:Generator_ColumnVarNameInTable="columnlongitude" type="xs:decimal" minOccurs="0" />
+              <xs:element name="latitude" msprop:Generator_ColumnPropNameInTable="latitudeColumn" msprop:Generator_ColumnPropNameInRow="latitude" msprop:Generator_UserColumnName="latitude" msprop:Generator_ColumnVarNameInTable="columnlatitude" type="xs:decimal" minOccurs="0" />
+              <xs:element name="comment" msprop:Generator_ColumnPropNameInTable="commentColumn" msprop:Generator_ColumnPropNameInRow="comment" msprop:Generator_UserColumnName="comment" msprop:Generator_ColumnVarNameInTable="columncomment" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="BACKENDDB_T_REFERENCEPOINTKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BACKENDDB_T_REFERENCEPOINT" />
+      <xs:field xpath="mstns:uid" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
